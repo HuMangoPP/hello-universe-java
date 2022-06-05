@@ -1,0 +1,277 @@
+2021.05.22
+
+created game and character object classes
+
+created player and enemy classes
+
+allows player and enemy to move around
+
+allows player and enemy to interact with one another
+
+drew player and enemy onto the screen
+
+_____
+
+2021.05.23
+
+created interactive object class
+
+created materials and food classes
+
+changed the way enemy moves around to accomodate for many enemies at once
+
+accomodate for many food objects on screen at once
+
+allows player to interact with food on ground
+
+allows player to access to primary version of the inventory
+
+_____
+
+2021.05.24
+
+created the Item class
+
+created the ItemDrops class
+
+fixed some issues with enemy movement where they wouldn't attack
+
+fixed some code so each enemy can use its own attack speed stat
+
+allows player to interact with item on the ground
+
+allows player to equip an item and get bonus stats from the item
+
+allows player to interact with dropped items on the ground
+
+_____
+
+2021.05.25
+
+created GameEvents class
+
+begin work on GameEvents, game can detect which event is currently happening
+
+each game tick (currently one minute but will change later), a new event will be chosen
+
+each game tick, an Interactive Object will randomly spawn
+
+_____
+
+2021.05.26
+
+fixed an error with the Interactive Object class
+
+began planning on what each event should do
+
+worked on foundations of events
+
+split the Screen and Panel classes into two separate files
+
+created the Map and Tiles classes to draw the world map; these do not have anything in them except for the methods used
+by the GameEvents class
+
+_____
+
+2021.05.27
+
+Enemy can now recieve buffs from the war event when they attack
+
+Player will now take DOT dmg during the disease event if conditions apply
+
+continued work on tiles
+
+fixed Enemy's reproduce method
+
+continued planning for events; worked out specific details for events
+
+continued work on Map and Tiles classes
+
+_____
+
+2021.05.28
+
+began work on sprites
+
+_____
+
+2021.05.29
+
+continued work on sprites
+
+created some menus for the game
+
+began planning the code for menus
+
+_____
+
+2021.05.30
+
+continued working on menu graphics
+
+planned menu functionality
+
+_____
+
+2021.05.31
+
+continued working on menu graphics
+
+turned character graphics into sprite sheets
+
+planning perk effects
+
+worked on perk effect icons
+
+_____
+
+2021.06.01
+
+continued work on game graphics
+
+put everything together for the progress report
+
+allows user to access some menus
+
+user can play basic version of the game
+
+there is no progression in the game yet (no skill point system or evolution system yet)
+
+working directory must be set to /summative_project/ to work
+
+_____
+
+2021.06.02
+
+continued working on implementing game graphics and getting menus set up
+
+worked on:
+- skill tree menu (partially; planning still in process)
+- inventory menu (partially; testing still in progress)
+
+_____
+
+2021.06.03
+
+continued plan on skill tree menu (how it will look and how it will function)
+
+added the SkillsMenu class for the skill tree menus
+
+continued work on inventory menu (made all of the sprites work with the right sizes)
+
+_____
+
+2021.06.04
+
+player and enemy now have working animated sprites
+
+_____
+
+2021.06.05
+
+player and enemy now having attack animation sprites
+
+
+_____
+
+2021.06.06
+
+continued working on character level up, ascension, and skill tree
+
+_____
+
+2021.06.07
+
+continued working on the ascension menu
+
+player can now ascend to different species
+
+_____
+
+2021.06.08
+
+worked on the skill tree upgrade menus
+
+_____
+
+2021.06.09
+
+continued work on skill tree upgrade menus
+
+_____
+
+2021.06.10
+
+worked on crafting and inventory menus
+
+player can now eat food
+
+player can now remove items from inventory
+
+player can now upgrade stats (no skill points yet)
+
+_____
+
+2021.06.11
+
+enemies can now upgrade their own stats
+
+players now have skill points to use
+
+created some sprites that needed to be added (chemical soup, iced and extinction tiles, etc)
+
+player can now die and move onto the game over screen
+
+_____
+
+2021.06.12
+
+created character info menu
+
+integrated non-stat perks into gameplay mechanics
+
+began work on disease gameplay mechanics
+
+began work on extinction gameplay mechanics
+
+begin working on write-up
+
+_____
+
+2021.06.13
+
+finished work on extinction gameplay mechanics
+
+integrate perks into gameplay mechanics
+
+introduced stat requirements for ascension
+
+introduced stat requirements for crafting weapons
+
+finished work on disease gameplay mechanics
+
+certain types of materials spawn in only certain types of terrain
+
+game event is indicated (if there is a new game event)
+
+begin filming video
+
+begin working on write-up
+
+_____
+
+2021.06.14
+
+finished write-up
+
+finished video demo
+
+worked on formatting and commenting code
+
+play-testing and balancing
+
+_____
+
+2021.06.15
+
+project submitted
